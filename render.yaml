@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: linkding
+    env: docker
+    plan: free
+    envVars:
+      - key: LD_SUPERUSER_NAME
+        value: durubhuru
+      - key: LD_SUPERUSER_PASSWORD
+        value: @#0123456789
+    autoDeploy: false
